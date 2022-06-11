@@ -11,6 +11,7 @@ El plan es crear todo un ambiente para un livestraming e interacción en redes s
     - [Twitch Oficial 🔴](#twitch-oficial-)
     - [Sistema de diseño 🖌️](#sistema-de-diseño-️)
   - [Versiones 🤖](#versiones-)
+    - [Beta 0.1.2](#beta-012)
     - [Beta 0.1.1](#beta-011)
 
 ## Enlaces Importantes 🔗
@@ -26,6 +27,10 @@ Puedes apoyarme en mis directos de videojuegos en [twitch/playesdevelogamer](htt
 Existe un sistema de diseño para todo el proyecto, aunque actualmente solo es público el sistema de diseño para los Overlays de OBS. Puedes encontrar más en [este enlace](http://https://link.playesdevelogamer.live/notion "este enlace").
 
 ## Versiones 🤖
+
+### Beta 0.1.2
+
+Empezamos a orginzar y configurar las carpetas de PUG.
 
 ### Beta 0.1.1
 
