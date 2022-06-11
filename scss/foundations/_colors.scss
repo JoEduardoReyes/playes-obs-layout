@@ -1,0 +1,26 @@
+@import "../tokens/colors";
+
+@mixin constructor($color) {
+  color: $color;
+  &_background {
+    background-color: $color;
+  }
+}
+
+// Brand colors
+.blue-main {
+  @include constructor($playes-games-main);
+}
+
+// Boolean colors
+.white {
+  @include constructor($playes-white);
+}
+.black {
+  @include constructor($negative);
+}
+
+// Background Color
+.main-background {
+  background-color: $playes-games-main-background;
+}
