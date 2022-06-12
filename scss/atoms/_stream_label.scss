@@ -1,0 +1,15 @@
+@import "../foundations/colors";
+@import "../foundations/spacing";
+@import "../foundations/typo";
+
+.stream_label {
+  width: 573px;
+  height: 80px;
+  background-color: $playes-dev-main-color-1;
+  border: 5px solid $playes-dev-main-color-4;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  @extend .space_left;
+}

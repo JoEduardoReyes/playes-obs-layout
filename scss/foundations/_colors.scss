@@ -17,7 +17,7 @@
   @include constructor($playes-white);
 }
 .black {
-  @include constructor($negative);
+  @include constructor($playes-black);
 }
 
 // Background Color

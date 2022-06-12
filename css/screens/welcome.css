@@ -1,0 +1,471 @@
+.blue-main {
+  color: #0487d9;
+}
+.blue-main_background {
+  background-color: #0487d9;
+}
+
+.white {
+  color: #fff;
+}
+.white_background {
+  background-color: #fff;
+}
+
+.black {
+  color: #000;
+}
+.black_background {
+  background-color: #000;
+}
+
+.main-background {
+  background-color: #1f2526;
+}
+
+.spaced {
+  padding: 50px;
+}
+
+.space {
+  padding: 50px;
+}
+.space_margin {
+  margin: 50px;
+}
+.space_top {
+  padding-top: 50px;
+}
+.space_top_margin {
+  margin-top: 50px;
+}
+.space_bottom {
+  padding-top: 50px;
+}
+.space_bottom_margin {
+  margin-bottom: 50px;
+}
+.space_left, .stream_label {
+  padding-top: 50px;
+}
+.space_left_margin {
+  margin-left: 50px;
+}
+.space_right {
+  padding-top: 50px;
+}
+.space_right_margin {
+  margin-right: 50px;
+}
+
+.space_2 {
+  padding: 100px;
+}
+.space_2_margin {
+  margin: 100px;
+}
+.space_2_top {
+  padding-top: 100px;
+}
+.space_2_top_margin {
+  margin-top: 100px;
+}
+.space_2_bottom {
+  padding-top: 100px;
+}
+.space_2_bottom_margin {
+  margin-bottom: 100px;
+}
+.space_2_left {
+  padding-top: 100px;
+}
+.space_2_left_margin {
+  margin-left: 100px;
+}
+.space_2_right {
+  padding-top: 100px;
+}
+.space_2_right_margin {
+  margin-right: 100px;
+}
+
+.space_3 {
+  padding: 150px;
+}
+.space_3_margin {
+  margin: 150px;
+}
+.space_3_top {
+  padding-top: 150px;
+}
+.space_3_top_margin {
+  margin-top: 150px;
+}
+.space_3_bottom {
+  padding-top: 150px;
+}
+.space_3_bottom_margin {
+  margin-bottom: 150px;
+}
+.space_3_left {
+  padding-top: 150px;
+}
+.space_3_left_margin {
+  margin-left: 150px;
+}
+.space_3_right {
+  padding-top: 150px;
+}
+.space_3_right_margin {
+  margin-right: 150px;
+}
+
+.space_4 {
+  padding: 200px;
+}
+.space_4_margin {
+  margin: 200px;
+}
+.space_4_top {
+  padding-top: 200px;
+}
+.space_4_top_margin {
+  margin-top: 200px;
+}
+.space_4_bottom {
+  padding-top: 200px;
+}
+.space_4_bottom_margin {
+  margin-bottom: 200px;
+}
+.space_4_left {
+  padding-top: 200px;
+}
+.space_4_left_margin {
+  margin-left: 200px;
+}
+.space_4_right {
+  padding-top: 200px;
+}
+.space_4_right_margin {
+  margin-right: 200px;
+}
+
+.space_5 {
+  padding: 250px;
+}
+.space_5_margin {
+  margin: 250px;
+}
+.space_5_top {
+  padding-top: 250px;
+}
+.space_5_top_margin {
+  margin-top: 250px;
+}
+.space_5_bottom {
+  padding-top: 250px;
+}
+.space_5_bottom_margin {
+  margin-bottom: 250px;
+}
+.space_5_left {
+  padding-top: 250px;
+}
+.space_5_left_margin {
+  margin-left: 250px;
+}
+.space_5_right {
+  padding-top: 250px;
+}
+.space_5_right_margin {
+  margin-right: 250px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+h1 {
+  font-size: 24rem;
+}
+
+h2 {
+  font-size: 12rem;
+}
+
+h3 {
+  font-size: 8rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 8rem;
+}
+
+.big-title {
+  text-shadow: 0px 0px 10px #fff;
+}
+
+.blue-main {
+  color: #0487d9;
+}
+.blue-main_background {
+  background-color: #0487d9;
+}
+
+.white {
+  color: #fff;
+}
+.white_background {
+  background-color: #fff;
+}
+
+.black {
+  color: #000;
+}
+.black_background {
+  background-color: #000;
+}
+
+.main-background {
+  background-color: #1f2526;
+}
+
+.spaced {
+  padding: 50px;
+}
+
+.space {
+  padding: 50px;
+}
+.space_margin {
+  margin: 50px;
+}
+.space_top {
+  padding-top: 50px;
+}
+.space_top_margin {
+  margin-top: 50px;
+}
+.space_bottom {
+  padding-top: 50px;
+}
+.space_bottom_margin {
+  margin-bottom: 50px;
+}
+.space_left, .stream_label {
+  padding-top: 50px;
+}
+.space_left_margin {
+  margin-left: 50px;
+}
+.space_right {
+  padding-top: 50px;
+}
+.space_right_margin {
+  margin-right: 50px;
+}
+
+.space_2 {
+  padding: 100px;
+}
+.space_2_margin {
+  margin: 100px;
+}
+.space_2_top {
+  padding-top: 100px;
+}
+.space_2_top_margin {
+  margin-top: 100px;
+}
+.space_2_bottom {
+  padding-top: 100px;
+}
+.space_2_bottom_margin {
+  margin-bottom: 100px;
+}
+.space_2_left {
+  padding-top: 100px;
+}
+.space_2_left_margin {
+  margin-left: 100px;
+}
+.space_2_right {
+  padding-top: 100px;
+}
+.space_2_right_margin {
+  margin-right: 100px;
+}
+
+.space_3 {
+  padding: 150px;
+}
+.space_3_margin {
+  margin: 150px;
+}
+.space_3_top {
+  padding-top: 150px;
+}
+.space_3_top_margin {
+  margin-top: 150px;
+}
+.space_3_bottom {
+  padding-top: 150px;
+}
+.space_3_bottom_margin {
+  margin-bottom: 150px;
+}
+.space_3_left {
+  padding-top: 150px;
+}
+.space_3_left_margin {
+  margin-left: 150px;
+}
+.space_3_right {
+  padding-top: 150px;
+}
+.space_3_right_margin {
+  margin-right: 150px;
+}
+
+.space_4 {
+  padding: 200px;
+}
+.space_4_margin {
+  margin: 200px;
+}
+.space_4_top {
+  padding-top: 200px;
+}
+.space_4_top_margin {
+  margin-top: 200px;
+}
+.space_4_bottom {
+  padding-top: 200px;
+}
+.space_4_bottom_margin {
+  margin-bottom: 200px;
+}
+.space_4_left {
+  padding-top: 200px;
+}
+.space_4_left_margin {
+  margin-left: 200px;
+}
+.space_4_right {
+  padding-top: 200px;
+}
+.space_4_right_margin {
+  margin-right: 200px;
+}
+
+.space_5 {
+  padding: 250px;
+}
+.space_5_margin {
+  margin: 250px;
+}
+.space_5_top {
+  padding-top: 250px;
+}
+.space_5_top_margin {
+  margin-top: 250px;
+}
+.space_5_bottom {
+  padding-top: 250px;
+}
+.space_5_bottom_margin {
+  margin-bottom: 250px;
+}
+.space_5_left {
+  padding-top: 250px;
+}
+.space_5_left_margin {
+  margin-left: 250px;
+}
+.space_5_right {
+  padding-top: 250px;
+}
+.space_5_right_margin {
+  margin-right: 250px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+h1 {
+  font-size: 24rem;
+}
+
+h2 {
+  font-size: 12rem;
+}
+
+h3 {
+  font-size: 8rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 8rem;
+}
+
+.stream_label {
+  width: 573px;
+  height: 80px;
+  background-color: #460273;
+  border: 5px solid #1b0140;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stream_labels {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: -1;
+  -ms-grid-row-span: -1;
+  grid-row: -1/-2;
+}
+
+body {
+  background-color: #0d0126;
+}
