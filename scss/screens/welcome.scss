@@ -1,6 +1,2 @@
-@import "../atoms/big-title";
-@import "../organisms/stream_labels";
-
-body {
-  background-color: $playes-dev-main-color-5;
-}
+@import "../themes/blue-theme";
+@import "../templates/big-screen-template";

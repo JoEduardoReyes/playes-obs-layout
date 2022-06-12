@@ -23,6 +23,40 @@
   background-color: #1f2526;
 }
 
+body {
+  background-color: #0d0126;
+}
+
+.stream_label {
+  background-color: #460273;
+  border: 5px solid #1b0140;
+}
+
+.blue-main {
+  color: #0487d9;
+}
+.blue-main_background {
+  background-color: #0487d9;
+}
+
+.white {
+  color: #fff;
+}
+.white_background {
+  background-color: #fff;
+}
+
+.black {
+  color: #000;
+}
+.black_background {
+  background-color: #000;
+}
+
+.main-background {
+  background-color: #1f2526;
+}
+
 .spaced {
   padding: 50px;
 }
@@ -443,8 +477,6 @@ p {
 .stream_label {
   width: 573px;
   height: 80px;
-  background-color: #460273;
-  border: 5px solid #1b0140;
   border-radius: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,8 +496,4 @@ p {
   -ms-grid-row: -1;
   -ms-grid-row-span: -1;
   grid-row: -1/-2;
-}
-
-body {
-  background-color: #0d0126;
 }

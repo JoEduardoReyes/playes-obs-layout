@@ -1,0 +1,10 @@
+@import "../foundations/colors";
+
+body {
+  background-color: $playes-dev-main-color-5;
+}
+
+.stream_label {
+  background-color: $playes-dev-main-color-1;
+  border: 5px solid $playes-dev-main-color-4;
+}
