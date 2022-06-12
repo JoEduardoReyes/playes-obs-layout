@@ -1,3 +1,34 @@
 @import "../tokens/typo";
 @import "../tokens/colors";
 @import "../tokens/spacing";
+
+html {
+  font-size: $font-normalizer;
+}
+
+body {
+  font-family: $main-font;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: $playes-white;
+}
+
+h1 {
+  font-size: $main-font-xl;
+}
+h2 {
+  font-size: $main-font-md;
+}
+h3 {
+  font-size: $main-font-sm;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: $bold;
+}
+p {
+  font-family: $secondary-font;
+  font-size: $secondary-font-md;
+}

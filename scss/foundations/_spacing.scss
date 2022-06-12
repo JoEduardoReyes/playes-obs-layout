@@ -1,58 +1,56 @@
 @import "../tokens/spacing";
 
-
-
 @mixin constructor($num) {
-  padding:$num;
-  &_margin{
+  padding: $num;
+  &_margin {
     margin: $num;
   }
-  &_top{
+  &_top {
     padding-top: $num;
-    &_margin{
+    &_margin {
       margin-top: $num;
     }
   }
-  &_bottom{
+  &_bottom {
     padding-top: $num;
-    &_margin{
+    &_margin {
       margin-bottom: $num;
     }
   }
-  &_left{
+  &_left {
     padding-top: $num;
-    &_margin{
+    &_margin {
       margin-left: $num;
     }
   }
-  &_right{
+  &_right {
     padding-top: $num;
-    &_margin{
+    &_margin {
       margin-right: $num;
     }
   }
 }
 
-
-.spaced{
+.spaced {
   padding: $space;
 }
 
-.space{
-  @include constructor($space)
+.space {
+  @include constructor($space);
 }
 
-.space_2{
-  @include constructor($space * 2)
+.space_2 {
+  @include constructor($space * 2);
 }
 
-.space_3{
-  @include constructor($space * 3)
+.space_3 {
+  @include constructor($space * 3);
 }
 
-.space_4{
-  @include constructor($space * 4)
+.space_4 {
+  @include constructor($space * 4);
 }
 
-.space_5{
-  @include constructor($space * 5)
+.space_5 {
+  @include constructor($space * 5);
+}
