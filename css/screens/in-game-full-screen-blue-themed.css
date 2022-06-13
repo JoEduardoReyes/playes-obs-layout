@@ -1,0 +1,29 @@
+.blue-main {
+  color: #0487d9;
+}
+.blue-main_background {
+  background-color: #0487d9;
+}
+
+.white {
+  color: #fff;
+}
+.white_background {
+  background-color: #fff;
+}
+
+.black {
+  color: #000;
+}
+.black_background {
+  background-color: #000;
+}
+
+.main-background {
+  background-color: #1f2526;
+}
+
+.stream-label {
+  background-color: #034aa6;
+  border: 5px solid #04b2d9;
+}
