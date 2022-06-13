@@ -47,8 +47,13 @@ main {
   display: grid;
   -ms-grid-columns: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  -ms-grid-rows: 164px 1fr 80px;
+  grid-template-rows: 164px 1fr 80px;
+}
+.big_screen .big-title {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
 }
 
 /* Document
@@ -650,6 +655,10 @@ template {
   margin-right: 250px;
 }
 
+.gap-space, .big_screen {
+  gap: 50px;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -871,6 +880,10 @@ p {
 }
 .space_5_right_margin {
   margin-right: 250px;
+}
+
+.gap-space, .big_screen {
+  gap: 50px;
 }
 
 html {

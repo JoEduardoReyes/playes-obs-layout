@@ -54,3 +54,7 @@
 .space_5 {
   @include constructor($space * 5);
 }
+
+.gap-space {
+  gap: $space;
+}
