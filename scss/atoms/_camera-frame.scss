@@ -1,0 +1,11 @@
+@import "../foundations/colors";
+@import "../foundations/spacing";
+
+.camera-frame {
+  width: $camera-size;
+  height: calc($camera-size / 16 * 9);
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  z-index: 20;
+}

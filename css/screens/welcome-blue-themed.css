@@ -19,13 +19,32 @@
   background-color: #000;
 }
 
+.youtube {
+  color: red;
+}
+.youtube_background {
+  background-color: red;
+}
+
 .main-background {
   background-color: #1f2526;
+}
+
+.secondary-background {
+  background-color: #034aa6;
 }
 
 .stream-label {
   background-color: #034aa6;
   border: 5px solid #04b2d9;
+}
+
+.main-border {
+  border-color: #0487d9;
+}
+
+.secondary-border {
+  border-color: #04b2d9;
 }
 
 * {
@@ -492,8 +511,11 @@ template {
   background-color: #000;
 }
 
-.main-background {
-  background-color: #1f2526;
+.youtube {
+  color: red;
+}
+.youtube_background {
+  background-color: red;
 }
 
 .spaced {
@@ -719,8 +741,11 @@ p {
   background-color: #000;
 }
 
-.main-background {
-  background-color: #1f2526;
+.youtube {
+  color: red;
+}
+.youtube_background {
+  background-color: red;
 }
 
 .spaced {
