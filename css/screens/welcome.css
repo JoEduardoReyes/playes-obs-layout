@@ -518,7 +518,7 @@ template {
 .space_bottom_margin {
   margin-bottom: 50px;
 }
-.space_left, .stream-label {
+.space_left {
   padding-left: 50px;
 }
 .space_left_margin {
@@ -549,7 +549,7 @@ template {
 .space_2_bottom_margin {
   margin-bottom: 100px;
 }
-.space_2_left {
+.space_2_left, .stream-label {
   padding-left: 100px;
 }
 .space_2_left_margin {
@@ -745,7 +745,7 @@ p {
 .space_bottom_margin {
   margin-bottom: 50px;
 }
-.space_left, .stream-label {
+.space_left {
   padding-left: 50px;
 }
 .space_left_margin {
@@ -776,7 +776,7 @@ p {
 .space_2_bottom_margin {
   margin-bottom: 100px;
 }
-.space_2_left {
+.space_2_left, .stream-label {
   padding-left: 100px;
 }
 .space_2_left_margin {
@@ -933,6 +933,12 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+.stream-label i {
+  position: absolute;
+  left: 40px;
+  top: 15px;
 }
 
 .stream-labels {
