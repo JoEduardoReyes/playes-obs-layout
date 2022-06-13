@@ -20,7 +20,7 @@
   @include constructor($playes-black);
 }
 
-// Background Color
-.main-background {
-  background-color: $playes-games-main-background;
+//External Branding Colors
+.youtube {
+  @include constructor($youtube);
 }

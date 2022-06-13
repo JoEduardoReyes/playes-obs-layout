@@ -1,0 +1,23 @@
+@import "../foundations/colors";
+@import "../foundations/spacing";
+@import "../foundations/typo";
+
+.camera-social-remainder {
+  width: $camera-size;
+  height: calc($camera-size / 4);
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  bottom: -370px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: $space / 2;
+  i {
+    margin-right: $space / 2;
+    font-size: 1.2em;
+  }
+}

@@ -8,5 +8,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  @extend .space_left;
+  position: relative;
+  @extend .space_2_left;
+  i {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+  }
 }

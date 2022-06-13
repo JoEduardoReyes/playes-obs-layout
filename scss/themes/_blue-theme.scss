@@ -1,6 +1,23 @@
 @import "../foundations/colors";
 
+// Background Color
+.main-background {
+  background-color: $playes-games-main-background;
+}
+
+.secondary-background {
+  background-color: $playes-games-main-color-1;
+}
+
 .stream-label {
   background-color: $playes-games-main-color-1;
   border: 5px solid $playes-games-main-color-4;
+}
+
+.main-border {
+  border-color: $playes-games-main;
+}
+
+.secondary-border {
+  border-color: $playes-games-main-color-4;
 }

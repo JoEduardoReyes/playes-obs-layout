@@ -1,10 +1,16 @@
 mixin big-title(action)
   .big-title
-    h1.big-title__action= action
-    h2.big-title__streaming Directo
+    h2.big-title__action= action
+    h1.big-title__streaming Directo
 
 mixin stream-labels
   .stream-labels
-    p.stream-label Último Seguidor
-    p.stream-label Último Host
-    p.stream-label Último Raid
+    p.stream-label
+      i.fa-solid.fa-heart
+      | Último Seguidor
+    p.stream-label
+      i.fa-solid.fa-share
+      | Último Host
+    p.stream-label
+      i.fa-solid.fa-parachute-box
+      | Último Raid

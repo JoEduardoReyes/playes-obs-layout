@@ -1,0 +1,10 @@
+extends ../templates/_big-screen-template.pug
+
+block page-title-style__head
+  link(rel="stylesheet", href="../../css/screens/goodbye-blue-themed.css")
+  title Despedida
+
+block body-content__head
+  main.big_screen.spaced.main-background
+    +big-title("Terminando")
+    +stream-labels
