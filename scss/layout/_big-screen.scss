@@ -1,0 +1,7 @@
+@import "../vendors/grids";
+
+.big_screen {
+  @include display-grid;
+  @include grid-template-columns(repeat(2, 1fr));
+  @include grid-template-rows(repeat(3, 1fr));
+}

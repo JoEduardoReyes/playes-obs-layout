@@ -3,11 +3,10 @@
 @import "../foundations/typo";
 
 .stream-label {
-  width: 573px;
   height: 80px;
   border-radius: 25px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  @extend .space_2_left;
+  @extend .space_left;
 }
