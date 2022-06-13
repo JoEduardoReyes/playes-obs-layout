@@ -23,13 +23,9 @@
   background-color: #1f2526;
 }
 
-body {
-  background-color: #0d0126;
-}
-
-.stream_label {
-  background-color: #460273;
-  border: 5px solid #1b0140;
+.stream-label {
+  background-color: #034aa6;
+  border: 5px solid #04b2d9;
 }
 
 * {
@@ -37,6 +33,11 @@ body {
   padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
 }
 
 /* Document
@@ -496,19 +497,19 @@ template {
   margin-top: 50px;
 }
 .space_bottom {
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .space_bottom_margin {
   margin-bottom: 50px;
 }
-.space_left, .stream_label {
-  padding-top: 50px;
+.space_left {
+  padding-left: 50px;
 }
 .space_left_margin {
   margin-left: 50px;
 }
 .space_right {
-  padding-top: 50px;
+  padding-right: 50px;
 }
 .space_right_margin {
   margin-right: 50px;
@@ -527,19 +528,19 @@ template {
   margin-top: 100px;
 }
 .space_2_bottom {
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .space_2_bottom_margin {
   margin-bottom: 100px;
 }
-.space_2_left {
-  padding-top: 100px;
+.space_2_left, .stream-label {
+  padding-left: 100px;
 }
 .space_2_left_margin {
   margin-left: 100px;
 }
 .space_2_right {
-  padding-top: 100px;
+  padding-right: 100px;
 }
 .space_2_right_margin {
   margin-right: 100px;
@@ -558,19 +559,19 @@ template {
   margin-top: 150px;
 }
 .space_3_bottom {
-  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .space_3_bottom_margin {
   margin-bottom: 150px;
 }
 .space_3_left {
-  padding-top: 150px;
+  padding-left: 150px;
 }
 .space_3_left_margin {
   margin-left: 150px;
 }
 .space_3_right {
-  padding-top: 150px;
+  padding-right: 150px;
 }
 .space_3_right_margin {
   margin-right: 150px;
@@ -589,19 +590,19 @@ template {
   margin-top: 200px;
 }
 .space_4_bottom {
-  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .space_4_bottom_margin {
   margin-bottom: 200px;
 }
 .space_4_left {
-  padding-top: 200px;
+  padding-left: 200px;
 }
 .space_4_left_margin {
   margin-left: 200px;
 }
 .space_4_right {
-  padding-top: 200px;
+  padding-right: 200px;
 }
 .space_4_right_margin {
   margin-right: 200px;
@@ -620,19 +621,19 @@ template {
   margin-top: 250px;
 }
 .space_5_bottom {
-  padding-top: 250px;
+  padding-bottom: 250px;
 }
 .space_5_bottom_margin {
   margin-bottom: 250px;
 }
 .space_5_left {
-  padding-top: 250px;
+  padding-left: 250px;
 }
 .space_5_left_margin {
   margin-left: 250px;
 }
 .space_5_right {
-  padding-top: 250px;
+  padding-right: 250px;
 }
 .space_5_right_margin {
   margin-right: 250px;
@@ -670,7 +671,7 @@ h3 {
 
 p {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 8rem;
+  font-size: 3.2rem;
 }
 
 .big-title {
@@ -719,19 +720,19 @@ p {
   margin-top: 50px;
 }
 .space_bottom {
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .space_bottom_margin {
   margin-bottom: 50px;
 }
-.space_left, .stream_label {
-  padding-top: 50px;
+.space_left {
+  padding-left: 50px;
 }
 .space_left_margin {
   margin-left: 50px;
 }
 .space_right {
-  padding-top: 50px;
+  padding-right: 50px;
 }
 .space_right_margin {
   margin-right: 50px;
@@ -750,19 +751,19 @@ p {
   margin-top: 100px;
 }
 .space_2_bottom {
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .space_2_bottom_margin {
   margin-bottom: 100px;
 }
-.space_2_left {
-  padding-top: 100px;
+.space_2_left, .stream-label {
+  padding-left: 100px;
 }
 .space_2_left_margin {
   margin-left: 100px;
 }
 .space_2_right {
-  padding-top: 100px;
+  padding-right: 100px;
 }
 .space_2_right_margin {
   margin-right: 100px;
@@ -781,19 +782,19 @@ p {
   margin-top: 150px;
 }
 .space_3_bottom {
-  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .space_3_bottom_margin {
   margin-bottom: 150px;
 }
 .space_3_left {
-  padding-top: 150px;
+  padding-left: 150px;
 }
 .space_3_left_margin {
   margin-left: 150px;
 }
 .space_3_right {
-  padding-top: 150px;
+  padding-right: 150px;
 }
 .space_3_right_margin {
   margin-right: 150px;
@@ -812,19 +813,19 @@ p {
   margin-top: 200px;
 }
 .space_4_bottom {
-  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .space_4_bottom_margin {
   margin-bottom: 200px;
 }
 .space_4_left {
-  padding-top: 200px;
+  padding-left: 200px;
 }
 .space_4_left_margin {
   margin-left: 200px;
 }
 .space_4_right {
-  padding-top: 200px;
+  padding-right: 200px;
 }
 .space_4_right_margin {
   margin-right: 200px;
@@ -843,19 +844,19 @@ p {
   margin-top: 250px;
 }
 .space_5_bottom {
-  padding-top: 250px;
+  padding-bottom: 250px;
 }
 .space_5_bottom_margin {
   margin-bottom: 250px;
 }
 .space_5_left {
-  padding-top: 250px;
+  padding-left: 250px;
 }
 .space_5_left_margin {
   margin-left: 250px;
 }
 .space_5_right {
-  padding-top: 250px;
+  padding-right: 250px;
 }
 .space_5_right_margin {
   margin-right: 250px;
@@ -893,10 +894,10 @@ h3 {
 
 p {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 8rem;
+  font-size: 3.2rem;
 }
 
-.stream_label {
+.stream-label {
   width: 573px;
   height: 80px;
   border-radius: 25px;

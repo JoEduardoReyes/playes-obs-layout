@@ -12,19 +12,19 @@
     }
   }
   &_bottom {
-    padding-top: $num;
+    padding-bottom: $num;
     &_margin {
       margin-bottom: $num;
     }
   }
   &_left {
-    padding-top: $num;
+    padding-left: $num;
     &_margin {
       margin-left: $num;
     }
   }
   &_right {
-    padding-top: $num;
+    padding-right: $num;
     &_margin {
       margin-right: $num;
     }
