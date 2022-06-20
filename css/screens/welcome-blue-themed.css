@@ -1302,7 +1302,10 @@ p {
   font-size: 3.2rem;
 }
 
+.big-screen-socials {
+  margin-top: 25px;
+}
 .big-screen-socials i {
-  margin-right: 10px;
+  margin-right: 25px;
   text-shadow: none;
 }

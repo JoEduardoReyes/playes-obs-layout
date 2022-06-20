@@ -3,8 +3,9 @@
 @import "../foundations/typo";
 
 .big-screen-socials {
+  margin-top: $space_half;
   i {
-    margin-right: 10px;
+    margin-right: $space_half;
     text-shadow: none;
   }
 }

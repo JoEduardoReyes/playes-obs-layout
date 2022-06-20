@@ -2,7 +2,7 @@
 
 .middle_screen {
   @include display-grid;
-  @include grid-template-columns(repeat(2, 1fr));
+  @include grid-template-columns(1fr 40%);
   @include grid-template-rows(1fr 80px);
   @extend .gap-space;
   .middle-title {
