@@ -1,7 +1,16 @@
+mixin big-screen-socials
+  .big-screen-socials
+    h3
+      i.fa-brands.fa-facebook.facebook
+      i.fa-brands.fa-twitch.twitch
+      i.fa-brands.fa-youtube.youtube
+      | Playes Develogamer
+
 mixin big-title(action)
   .big-title
     h2.big-title__action= action
     h1.big-title__streaming Directo
+    +big-screen-socials
 
 mixin stream-labels
   .stream-labels

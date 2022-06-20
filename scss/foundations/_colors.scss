@@ -24,3 +24,9 @@
 .youtube {
   @include constructor($youtube);
 }
+.facebook {
+  @include constructor($facebook);
+}
+.twitch {
+  @include constructor($twitch);
+}
