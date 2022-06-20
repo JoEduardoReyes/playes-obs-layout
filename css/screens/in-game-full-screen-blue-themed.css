@@ -20,10 +20,24 @@
 }
 
 .youtube {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .youtube_background {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
+}
+
+.facebook {
+  color: rgb(35, 116, 225);
+}
+.facebook_background {
+  background-color: rgb(35, 116, 225);
+}
+
+.twitch {
+  color: rgb(100, 65, 165);
+}
+.twitch_background {
+  background-color: rgb(100, 65, 165);
 }
 
 .main-background {
@@ -498,10 +512,24 @@ template {
 }
 
 .youtube {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .youtube_background {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
+}
+
+.facebook {
+  color: rgb(35, 116, 225);
+}
+.facebook_background {
+  background-color: rgb(35, 116, 225);
+}
+
+.twitch {
+  color: rgb(100, 65, 165);
+}
+.twitch_background {
+  background-color: rgb(100, 65, 165);
 }
 
 .spaced {
@@ -687,7 +715,7 @@ h2 {
 }
 
 h3 {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 h1,
@@ -728,10 +756,24 @@ p {
 }
 
 .youtube {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .youtube_background {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
+}
+
+.facebook {
+  color: rgb(35, 116, 225);
+}
+.facebook_background {
+  background-color: rgb(35, 116, 225);
+}
+
+.twitch {
+  color: rgb(100, 65, 165);
+}
+.twitch_background {
+  background-color: rgb(100, 65, 165);
 }
 
 .spaced {
@@ -917,7 +959,7 @@ h2 {
 }
 
 h3 {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 h1,
@@ -988,10 +1030,24 @@ p {
 }
 
 .youtube {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .youtube_background {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
+}
+
+.facebook {
+  color: rgb(35, 116, 225);
+}
+.facebook_background {
+  background-color: rgb(35, 116, 225);
+}
+
+.twitch {
+  color: rgb(100, 65, 165);
+}
+.twitch_background {
+  background-color: rgb(100, 65, 165);
 }
 
 .spaced {
@@ -1188,10 +1244,24 @@ p {
 }
 
 .youtube {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .youtube_background {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
+}
+
+.facebook {
+  color: rgb(35, 116, 225);
+}
+.facebook_background {
+  background-color: rgb(35, 116, 225);
+}
+
+.twitch {
+  color: rgb(100, 65, 165);
+}
+.twitch_background {
+  background-color: rgb(100, 65, 165);
 }
 
 .spaced {
@@ -1377,7 +1447,7 @@ h2 {
 }
 
 h3 {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 h1,
