@@ -40,6 +40,13 @@
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .main-background {
   background-color: #1f2526;
 }
@@ -532,6 +539,13 @@ template {
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .spaced {
   padding: 50px;
 }
@@ -715,7 +729,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3.6rem;
 }
 
 h1,
@@ -776,6 +794,13 @@ p {
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .spaced {
   padding: 50px;
 }
@@ -959,7 +984,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3.6rem;
 }
 
 h1,
@@ -1048,6 +1077,13 @@ p {
 }
 .twitch_background {
   background-color: rgb(100, 65, 165);
+}
+
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
 }
 
 .spaced {
@@ -1218,8 +1254,6 @@ p {
   height: 281.25px;
   border-width: 5px;
   border-style: solid;
-  position: absolute;
-  z-index: 20;
 }
 
 .blue-main {
@@ -1262,6 +1296,13 @@ p {
 }
 .twitch_background {
   background-color: rgb(100, 65, 165);
+}
+
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
 }
 
 .spaced {
@@ -1447,7 +1488,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3.6rem;
 }
 
 h1,
@@ -1464,24 +1509,17 @@ p {
 
 .camera-social-remainder {
   width: 500px;
-  height: 125px;
-  border-width: 5px;
-  border-style: solid;
-  position: absolute;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  bottom: -370px;
-  z-index: 10;
+  height: 100px;
+  border-radius: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding-bottom: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .camera-social-remainder i {
   margin-right: 25px;

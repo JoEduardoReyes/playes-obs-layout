@@ -4,20 +4,13 @@
 
 .camera-social-remainder {
   width: $camera-size;
-  height: calc($camera-size / 4);
-  border-width: 5px;
-  border-style: solid;
-  position: absolute;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  bottom: -370px;
-  z-index: 10;
+  height: calc($camera-size / 5);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  padding-bottom: $space / 2;
+  align-items: center;
   i {
-    margin-right: $space / 2;
+    margin-right: $space_half;
     font-size: 1.2em;
   }
 }

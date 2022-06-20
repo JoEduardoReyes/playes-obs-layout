@@ -40,6 +40,13 @@
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .main-background {
   background-color: #1f2526;
 }
@@ -546,6 +553,13 @@ template {
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .spaced {
   padding: 50px;
 }
@@ -729,7 +743,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3.6rem;
 }
 
 h1,
@@ -790,6 +808,13 @@ p {
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .spaced {
   padding: 50px;
 }
@@ -973,7 +998,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3.6rem;
 }
 
 h1,
@@ -1064,6 +1093,13 @@ p {
   background-color: rgb(100, 65, 165);
 }
 
+.main-grey {
+  color: #5e7073;
+}
+.main-grey_background {
+  background-color: #5e7073;
+}
+
 .spaced {
   padding: 50px;
 }
@@ -1247,7 +1283,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3.6rem;
 }
 
 h1,

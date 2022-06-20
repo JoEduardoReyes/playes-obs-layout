@@ -30,3 +30,7 @@
 .twitch {
   @include constructor($twitch);
 }
+
+.main-grey {
+  @include constructor($playes-games-main-grey);
+}
