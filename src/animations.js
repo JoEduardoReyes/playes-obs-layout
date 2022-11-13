@@ -11,6 +11,7 @@ const SOCIAL_REMINDER_TEXT = document.getElementById("social-reminder-text");
 // animations
 const ENTRANCE_ANIMATION_CLASS = "animate__bounceInDown";
 const INTERMITENT_ANIMATION_CLASS = "animate__bounce";
+const EXIT_ANIMATION_CLASS = "animate__bounceOutUp";
 
 // Social HTML constructors
 const SOCIAL_PROFILES = [
@@ -29,7 +30,7 @@ console.table(SOCIAL_PROFILES);
 function socialReminderChange() {
 	// add entrance animation
 	SOCIAL_REMINDER_TEXT.classList.add(ENTRANCE_ANIMATION_CLASS);
-
+	// social reminder text constructor
 	const SOCIAL_REMINDER_TEXT_CURRENT =
 		"<i class='" +
 		SOCIAL_PROFILES[currentSocialCounter].name +
@@ -53,3 +54,14 @@ function socialReminderChange() {
 socialReminderChange();
 
 // animation change
+
+function intermitentAnimationToggle(counter = 0) {
+	let intermitentAnimationToggleCounter = counter;
+	if (intermitentAnimationToggleCounter < 6) {
+		setTimeout(() => {
+			counter++;
+			SOCIAL_REMINDER_TEXT.classList.toggle(INTERMITENT_ANIMATION_CLASS);
+			intermitentAnimationToggle(counter);
+		}, 5000);
+	}
+}
