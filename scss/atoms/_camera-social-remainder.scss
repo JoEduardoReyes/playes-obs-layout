@@ -3,14 +3,15 @@
 @import "../foundations/typo";
 
 .camera-social-remainder {
-  width: $camera-size;
-  height: calc($camera-size / 5);
-  border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  i {
-    margin-right: $space_half;
-    font-size: 1.2em;
-  }
+	width: $camera-size;
+	height: calc($camera-size / 5);
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	i {
+		margin-right: $space_half;
+		font-size: 1.2em;
+	}
 }
