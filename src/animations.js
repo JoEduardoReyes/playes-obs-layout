@@ -1,7 +1,18 @@
-// DOM Variables
-const SOCIAL_REMINDER_TEXT = document.getElementById("social-reminder-text");
-// Variables
+/*
+ ** DOM VARIABLES
+ */
 
+const SOCIAL_REMINDER_TEXT = document.getElementById("social-reminder-text");
+
+/*
+ ** DOC VARIABLES
+ */
+
+// animations
+const ENTRANCE_ANIMATION_CLASS = "animate__bounceInDown";
+const INTERMITENT_ANIMATION_CLASS = "animate__bounce";
+
+// Social HTML constructors
 const SOCIAL_PROFILES = [
 	{ name: "youtube", FAID: "fa-youtube", username: "EDarkMatter Gaming" },
 	{ name: "facebook", FAID: "fa-facebook", username: "EDarkMatter Gaming" },
@@ -16,6 +27,9 @@ console.table(SOCIAL_PROFILES);
 // HTML constructor
 
 function socialReminderChange() {
+	// add entrance animation
+	SOCIAL_REMINDER_TEXT.classList.add(ENTRANCE_ANIMATION_CLASS);
+
 	const SOCIAL_REMINDER_TEXT_CURRENT =
 		"<i class='" +
 		SOCIAL_PROFILES[currentSocialCounter].name +
@@ -30,20 +44,12 @@ function socialReminderChange() {
 	} else {
 		currentSocialCounter++;
 	}
+	// remove entrance animation
+	setTimeout(() => {
+		SOCIAL_REMINDER_TEXT.classList.remove(ENTRANCE_ANIMATION_CLASS);
+	}, 2000);
 }
 
 socialReminderChange();
 
 // animation change
-
-/* setTimeout(function () {
-	SOCIAL_REMINDER_TEXT.classList.remove("animate__bounceInDown");
-	SOCIAL_REMINDER_TEXT.classList.add("animate__bounce");
-}, 1000); */
-
-/* setInterval(function () {
-	SOCIAL_REMINDER_TEXT.classList.remove("animate__bounce");
-	setTimeout(function () {
-		SOCIAL_REMINDER_TEXT.classList.add("animate__bounce");
-	}, 1000);
-}, 3000); */
