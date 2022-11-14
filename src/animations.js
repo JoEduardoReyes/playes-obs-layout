@@ -8,6 +8,8 @@ const SOCIAL_REMINDER_TEXT = document.getElementById("social-reminder-text");
  ** DOC VARIABLES
  */
 
+var currentSocialCounter = 0;
+
 // animations
 const ENTRANCE_ANIMATION_CLASS = "animate__bounceInDown";
 const INTERMITENT_ANIMATION_CLASS = "animate__bounce";
@@ -19,18 +21,14 @@ const SOCIAL_PROFILES = [
 	{ name: "facebook", FAID: "fa-facebook", username: "EDarkMatter Gaming" },
 	{ name: "twitch", FAID: "fa-twitch", username: "EDarkMatterG" },
 	{ name: "twitter", FAID: "fa-twitter", username: "EDarkMatter" },
+	{ name: "tiktok", FAID: "fa-tiktok", username: "EDarkMatter" },
 ];
-
-var currentSocialCounter = 0;
-
-console.table(SOCIAL_PROFILES);
 
 // HTML constructor
 
 function socialReminderChange() {
-	// add entrance animation
+	// remove exit animation
 	SOCIAL_REMINDER_TEXT.classList.remove(EXIT_ANIMATION_CLASS);
-	SOCIAL_REMINDER_TEXT.classList.add(ENTRANCE_ANIMATION_CLASS);
 	// social reminder text constructor
 	const SOCIAL_REMINDER_TEXT_CURRENT =
 		"<i class='" +
@@ -40,8 +38,10 @@ function socialReminderChange() {
 		"'></i>" +
 		SOCIAL_PROFILES[currentSocialCounter].username;
 	SOCIAL_REMINDER_TEXT.innerHTML = SOCIAL_REMINDER_TEXT_CURRENT;
+	// add entrance animation
+	SOCIAL_REMINDER_TEXT.classList.add(ENTRANCE_ANIMATION_CLASS);
 	// counter change
-	if (currentSocialCounter == 3) {
+	if (currentSocialCounter == SOCIAL_PROFILES.length - 1) {
 		currentSocialCounter = 0;
 	} else {
 		currentSocialCounter++;
@@ -51,8 +51,6 @@ function socialReminderChange() {
 		SOCIAL_REMINDER_TEXT.classList.remove(ENTRANCE_ANIMATION_CLASS);
 	}, 2000);
 }
-
-socialReminderChange();
 
 // animation change
 
@@ -75,5 +73,6 @@ function socialRemindersLoop() {
 
 // exceution animations
 
+socialReminderChange();
 setTimeout(intermitentAnimationToggle, 2000);
 setInterval(socialRemindersLoop, 30000);
