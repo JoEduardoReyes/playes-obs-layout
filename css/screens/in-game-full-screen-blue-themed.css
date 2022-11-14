@@ -40,6 +40,13 @@
   background-color: rgb(100, 65, 165);
 }
 
+.twitter {
+  color: rgb(29, 161, 242);
+}
+.twitter_background {
+  background-color: rgb(29, 161, 242);
+}
+
 .main-grey {
   color: #5e7073;
 }
@@ -512,6 +519,13 @@ template {
   background-color: rgb(100, 65, 165);
 }
 
+.twitter {
+  color: rgb(29, 161, 242);
+}
+.twitter_background {
+  background-color: rgb(29, 161, 242);
+}
+
 .main-grey {
   color: #5e7073;
 }
@@ -765,6 +779,13 @@ p {
 }
 .twitch_background {
   background-color: rgb(100, 65, 165);
+}
+
+.twitter {
+  color: rgb(29, 161, 242);
+}
+.twitter_background {
+  background-color: rgb(29, 161, 242);
 }
 
 .main-grey {
@@ -1052,6 +1073,13 @@ p {
   background-color: rgb(100, 65, 165);
 }
 
+.twitter {
+  color: rgb(29, 161, 242);
+}
+.twitter_background {
+  background-color: rgb(29, 161, 242);
+}
+
 .main-grey {
   color: #5e7073;
 }
@@ -1271,6 +1299,13 @@ p {
   background-color: rgb(100, 65, 165);
 }
 
+.twitter {
+  color: rgb(29, 161, 242);
+}
+.twitter_background {
+  background-color: rgb(29, 161, 242);
+}
+
 .main-grey {
   color: #5e7073;
 }
@@ -1483,7 +1518,6 @@ p {
 .camera-social-remainder {
   width: 500px;
   height: 100px;
-  border-radius: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,36 +1,39 @@
 @import "../tokens/colors";
 
 @mixin constructor($color) {
-  color: $color;
-  &_background {
-    background-color: $color;
-  }
+	color: $color;
+	&_background {
+		background-color: $color;
+	}
 }
 
 // Brand colors
 .blue-main {
-  @include constructor($playes-games-main);
+	@include constructor($playes-games-main);
 }
 
 // Boolean colors
 .white {
-  @include constructor($playes-white);
+	@include constructor($playes-white);
 }
 .black {
-  @include constructor($playes-black);
+	@include constructor($playes-black);
 }
 
 //External Branding Colors
 .youtube {
-  @include constructor($youtube);
+	@include constructor($youtube);
 }
 .facebook {
-  @include constructor($facebook);
+	@include constructor($facebook);
 }
 .twitch {
-  @include constructor($twitch);
+	@include constructor($twitch);
+}
+.twitter {
+	@include constructor($twitter);
 }
 
 .main-grey {
-  @include constructor($playes-games-main-grey);
+	@include constructor($playes-games-main-grey);
 }

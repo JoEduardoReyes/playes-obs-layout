@@ -29,6 +29,7 @@ console.table(SOCIAL_PROFILES);
 
 function socialReminderChange() {
 	// add entrance animation
+	SOCIAL_REMINDER_TEXT.classList.remove(EXIT_ANIMATION_CLASS);
 	SOCIAL_REMINDER_TEXT.classList.add(ENTRANCE_ANIMATION_CLASS);
 	// social reminder text constructor
 	const SOCIAL_REMINDER_TEXT_CURRENT =
@@ -62,6 +63,17 @@ function intermitentAnimationToggle(counter = 0) {
 			counter++;
 			SOCIAL_REMINDER_TEXT.classList.toggle(INTERMITENT_ANIMATION_CLASS);
 			intermitentAnimationToggle(counter);
-		}, 5000);
+		}, 4000);
 	}
 }
+
+function socialRemindersLoop() {
+	SOCIAL_REMINDER_TEXT.classList.add(EXIT_ANIMATION_CLASS);
+	setTimeout(socialReminderChange, 1000);
+	setTimeout(intermitentAnimationToggle, 4000);
+}
+
+// exceution animations
+
+setTimeout(intermitentAnimationToggle, 2000);
+setInterval(socialRemindersLoop, 30000);
